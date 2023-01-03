@@ -1,4 +1,4 @@
-#/bin/zsh
+#/bin/bash
 
 sudo cp -r pack/holoinstall /etc/
 sudo cp -r pack/sddm.conf.d /etc/
@@ -46,8 +46,12 @@ sudo echo "Include = /etc/pacman.d/mirrorlistt" >> /etc/pacman.conf
 sudo echo "SigLevel = Never" >> /etc/pacman.conf 
 sudo cp -r /etc/pacman.conf pacman/mod/
 echo "desabilita los repositorios originales de arch linux con # /etc/pacman.conf"
+echo ""
+echo ""
 echo "ejecuta el comando pacman -Syyuu --overwrite="*""
 echo "instale holoiso-main con el comando pacman -S holoiso-main"
+echo ""
+echo ""
 echo "y despues de instalar holoiso-main restablesca el pacman.conf del pacman modificado pacman/mod/pacman.conf"
-echo "edita el usuario del archivo autlogin /etc/sddm.conf.d/autologin.conf"
+echo "edite el usuario del archivo autologin /etc/sddm.conf.d/autologin.conf"
 
