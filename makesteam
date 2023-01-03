@@ -3,7 +3,6 @@
 sudo cp -r pack/holoinstall /etc/
 sudo cp -r pack/sddm.conf.d /etc/
 sudo cp -r pack/xorg.conf.d /etc/X11/
-sudo cp -r pack/Desktop /etc/skel/
 sudo cp -r pack/hooks /etc/pacman.d/
 sudo cp -r pack/holo_mirrorlistt /etc/pacman.d/
 sudo cp -r pack/mirrorlistt /etc/pacman.d/
