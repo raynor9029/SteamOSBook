@@ -12,7 +12,9 @@ clear
 sudo pacman -S holoiso-stable/linux-firmware
 sudo pacman -S intel-ucode
 sudo pacman -S base base-devel linux-neptune linux-neptune-headers
+clear
 echo "Instalando SteamOS 3"
+
 sudo pacman -S holoiso-stable/vulkan-intel holoiso-stable/lib32-vulkan-intel mesa lib32-mesa
 mkdir /home/${usuario}/Desktop
 sudo cp /etc/holoinstall/steamos-gamemode.desktop /home/${usuario}/Desktop/steamos-gamemode.desktop
@@ -23,6 +25,7 @@ sudo chown -R ${usuario}:${usuario} /home/${usuario}/Desktop
 sudo usermod -a -G rfkill ${usuario}
 sudo usermod -a -G wheel ${usuario}
 sudo sed -i 's/steamdeck_stable/steamdeck_publicbeta/g' /usr/bin/steam
+clear
 sudo pacman -S flatpak packagekit-qt5 unzip vim
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo pacman -S linux-holoiso linux-holoiso-headers
@@ -32,6 +35,8 @@ sudo systemctl enable sddm NetworkManager systemd-timesyncd cups bluetooth
 sudo systemctl enable powerbutton-chmod && sudo systemctl start powerbutton-chmod
 sudo systemctl enable steamos-offload.target opt.mount root.mount srv.mount usr-lib-debug.mount usr-local.mount var-cache-pacman.mount var-lib-docker.mount var-lib-flatpak.mount var-lib-systemd-coredump.mount var-log.mount var-tmp.mount
 sudo touch /etc/holoiso-oobe
+
+sudo nano /etc/sddm.conf.d/autologin.conf
 
 echo "instalacion terminada reinicia y listo"
 
