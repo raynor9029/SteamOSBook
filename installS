@@ -39,8 +39,8 @@ sudo touch /etc/holoiso-oobe
 
 sudo echo "[Autologin]" >> /etc/sddm.conf.d/autologin.conf
 sudo echo "User="${usuario} >> /etc/sddm.conf.d/autologin.conf
-sudo echo "Session=gamescope-wayland.desktop" >> /etc/sddm.conf.d/autologin.conf
-sudo echo "#Session=plasma.desktop" >> /etc/sddm.conf.d/autologin.conf
+sudo echo "#Session=gamescope-wayland.desktop" >> /etc/sddm.conf.d/autologin.conf
+sudo echo "Session=plasma.desktop" >> /etc/sddm.conf.d/autologin.conf
 sudo echo "#Relogin=true" >> /etc/sddm.conf.d/autologin.conf
 
 
