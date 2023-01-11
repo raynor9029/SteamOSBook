@@ -160,10 +160,11 @@ en caso contrario que el gamescope no le funcione por diferentes motivos como po
 
 Si los problemas con el gamescope de pantalla negra o pantalla blanca persisten no hay nada que hacer significa que su procesador no es compatible pero aun puede usar la interfaz de steamdeck con kde plasma siga mas abajo en la guia de instalacion donde explico como hacer esto
 
-Si aparece un error grafico con el gamescope como se puede evidenciar en la siguiente captura de pantalla
+Si aparece este error grafico en el gamescope como se puede evidenciar en la siguiente captura de pantalla
 
+![errorgrafico](https://user-images.githubusercontent.com/121831041/211701468-d4e6561b-3bf4-4de5-b4be-86c849a53656.jpeg)
 
-esto tiene solucion solo ejecute el comando con la siguiente variable de entorno esto solo para los procesadores Intel
+para solucionar esto seria solo ejecutar el comando con la siguiente variable de entorno esto solo para los procesadores Intel
 
 ```
 INTEL_DEBUG=norbc gamescope -e -f -h 720 -- steam -gamepadui -steamos3 -steamdeck -steampal
@@ -171,14 +172,14 @@ INTEL_DEBUG=norbc gamescope -e -f -h 720 -- steam -gamepadui -steamos3 -steamdec
 
 y si aun asi no se soluciona el problema del error grafico me temo que su procesador no es compatible con gamescope pero aun puede usar la interfaz de steamdeck con kde plasma siga mas abajo en la guia de instalacion donde explico como hacer esto
 
-El error grafico tambien sucede si inicia la interfaz de SteamOS con el gamescope para solucionar esto edite el archivo gamescope-session con el siguiente comando ``nano /bin/gamescope-session`` y agrege la varible de INTEL_DEBUG de la siguiente manera
+El error grafico tambien sucede si inicia la interfaz de SteamOS con el gamescope en SteamOS Session para solucionar esto edite el archivo gamescope-session con el siguiente comando ``nano /bin/gamescope-session`` y agrege la varible de INTEL_DEBUG de la siguiente manera
 
 
 ```
 export INTEL_DEBUG=norbc
 ```
 
-y listo al iniciar la session de SteamOS deberia que funcionar sin problemas 
+y listo al iniciar la session de SteamOS deberia que funcionar sin problemas.
 
 **Ejecutar la Interfaz de SteamOS en KDE plasma:**
 
