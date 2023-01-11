@@ -164,7 +164,7 @@ Si aparece este error grafico en el gamescope como se puede evidenciar en la sig
 
 ![errorgrafico](https://user-images.githubusercontent.com/121831041/211701468-d4e6561b-3bf4-4de5-b4be-86c849a53656.jpeg)
 
-para solucionar esto seria ejecute el comando con la siguiente variable de entorno, esto solo para los procesadores Intel
+para solucionar esto seria ejecutar el comando con la siguiente variable de entorno, esto solo para los procesadores Intel
 
 ```
 INTEL_DEBUG=norbc gamescope -e -f -h 720 -- steam -gamepadui -steamos3 -steamdeck -steampal
