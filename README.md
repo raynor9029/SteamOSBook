@@ -164,7 +164,7 @@ Si aparece este error grafico en el gamescope como se puede evidenciar en la sig
 
 ![errorgrafico](https://user-images.githubusercontent.com/121831041/211701468-d4e6561b-3bf4-4de5-b4be-86c849a53656.jpeg)
 
-para solucionar esto seria solo ejecutar el comando con la siguiente variable de entorno esto solo para los procesadores Intel
+para solucionar esto seria ejecute el comando con la siguiente variable de entorno, esto solo para los procesadores Intel
 
 ```
 INTEL_DEBUG=norbc gamescope -e -f -h 720 -- steam -gamepadui -steamos3 -steamdeck -steampal
@@ -192,6 +192,9 @@ steam -gamepadui -steamos3 -steampal -steamdeck
 tenga encuenta que para iniciar la interfaz de SteamOS tendra que tener steam cerrado y en el caso de que el audio no le funcione con la interfaz en KDE, hay dos soluciones para esto quitar la linea de -steamos3 o actualizar a la beta de SteamDeck en steam en la seccion de configuraciones.
 
 para que no tenga que iniciar la interfaz de SteamOS por medio del terminal puede usar el archivo que esta en el git de SteamOSBook steamos-gamemodeui.desktop tendra que pasarlo al escritorio y darle permisos con el comando``sudo chmod +x steamos-gamemodeui.desktop`` y modificar la linea de -steamos3 en caso de que sea necesario
+
+Capturas de pantalla en una chromebook con SteamOS:
+-
 
 
 
