@@ -193,8 +193,14 @@ tenga encuenta que para iniciar la interfaz de SteamOS tendra que tener steam ce
 
 para que no tenga que iniciar la interfaz de SteamOS por medio del terminal puede usar el archivo que esta en el git de SteamOSBook steamos-gamemodeui.desktop tendra que pasarlo al escritorio y darle permisos con el comando``sudo chmod +x steamos-gamemodeui.desktop`` y modificar la linea de -steamos3 en caso de que sea necesario
 
-Capturas de pantalla en una chromebook con SteamOS:
+Capturas de pantalla:
 -
+
+![ime1](https://user-images.githubusercontent.com/121831041/211702472-a054fd0b-c4bc-413e-8a08-f91c3a6bae52.jpeg)
+![ime2](https://user-images.githubusercontent.com/121831041/211702488-167d388d-8124-4eb1-ba28-26c3f9f1dad2.jpeg)
+![ime3](https://user-images.githubusercontent.com/121831041/211702494-3d1e8e7f-3c13-42e2-8923-f24f89c4ee7e.jpeg)
+![ime4](https://user-images.githubusercontent.com/121831041/211702782-d1cba60d-57f1-48f8-b2f1-cce50d221630.png)
+![ime5](https://user-images.githubusercontent.com/121831041/211702792-53383558-9162-4fa8-bdee-56918d801efc.png)
 
 
 
