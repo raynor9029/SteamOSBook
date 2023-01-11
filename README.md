@@ -139,7 +139,7 @@ pero antes de hacer esto verifique que el gamescope funciones con su procesador 
 ```
 gamescope -e -f -h 720 -- steam -gamepadui -steamos3 -steamdeck -steampal
 ```
-si no puede salir del gamescope solo ve al terminar con alt+tab y en la terminal sal con Ctrl + c
+si no puede salir del gamescope solo ve al terminar con alt+tab y en el terminal finaliza el proceso con Ctrl + C
 
 si todo inicio bien ya puedes ejecutar la interfaz de SteamOS solo modifique el /etc/sddm.conf.d/autologin.conf y desmarque el general y DisplayServer, el autologin deberia que quedarle asi
 
@@ -193,6 +193,10 @@ tenga encuenta que para iniciar la interfaz de SteamOS tendra que tener steam ce
 
 para que no tenga que iniciar la interfaz de SteamOS por medio del terminal puede usar el archivo que esta en el git de SteamOSBook steamos-gamemodeui.desktop tendra que pasarlo al escritorio y darle permisos con el comando``sudo chmod +x steamos-gamemodeui.desktop`` y modificar la linea de -steamos3 en caso de que sea necesario
 
+Soporte de Audio
+-
+para hacer que el audio funcione en las Chromebooks solo ejecute el comando  ``setup-audio`` en caso de que no te funcion lastima tendras que pedir ayuda en el discord de eupnea-projects para ver si tiene solucion
+
 Capturas de pantalla:
 -
 
@@ -204,6 +208,10 @@ Capturas de pantalla:
 
 
 
+Creditos
+-
+ - todos los desarrolladores del projecto de The Eupnea Project que hicieron posible ejecutar linux en una chromebook sin la nesecidad de modificar el firmware [PaginaWeb Oficial](https://eupnea-linux.github.io/)
+ - Desarrollador de HOLOISO theVakhovskeIsTaken que hiso posible instalar SteamOS en cualquier PC con arch linux [github de HOLOISO](https://github.com/theVakhovskeIsTaken/holoiso)
 
 
 
