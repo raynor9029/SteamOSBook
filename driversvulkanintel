@@ -5,6 +5,7 @@ sudo pacman -Syy
 sudo pacman -S mesa lib32-mesa -y
 sudo pacman -S libva-mesa-driver mesa-vdpau opencl-mesa vulkan-mesa-layers mesa-demos vulkan-tools vulkan-intel -y
 sudo pacman -S lib32-libva-mesa-driver lib32-mesa-vdpau lib32-opencl-mesa lib32-vulkan-intel lib32-vulkan-mesa-layers lib32-mesa-demos -y
+sudo pacman -S llvm lib32-llvm lib32-llvm-libs llvm-libs -y
 sudo cp -r pack/modpac/pacman.conf /etc/
 sudo pacman -Syy holoiso-stable/vulkan-intel
 
