@@ -1,0 +1,8 @@
+#!/bin/bash
+
+clear
+sudo pacman -S amd-ucode
+sudo pacman -S vulkan-radeon lib32-vulkan-radeon mesa lib32-mesa -y
+sudo pacman -S mesa lib32-mesa -y
+sudo pacman -S libva-mesa-driver mesa-vdpau opencl-mesa vulkan-mesa-layers mesa-demos vulkan-tools vulkan-radeon
+sudo pacman -S lib32-libva-mesa-driver lib32-mesa-vdpau lib32-opencl-mesa lib32-vulkan-mesa-layers lib32-mesa-demos lib32-vulkan-radeon

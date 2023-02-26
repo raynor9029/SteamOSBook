@@ -11,12 +11,11 @@ read usuario
 
 clear
 sudo pacman -S holoiso-stable/linux-firmware -y
-sudo pacman -S intel-ucode -y
+
 sudo pacman -S base base-devel linux-neptune linux-neptune-headers -y
 clear
 echo "Instalando SteamOS 3"
 
-sudo pacman -S holoiso-stable/vulkan-intel holoiso-stable/lib32-vulkan-intel mesa lib32-mesa -y
 mkdir /home/${usuario}/Desktop
 sudo cp /etc/holoinstall/steamos-gamemode.desktop /home/${usuario}/Desktop/steamos-gamemode.desktop
 sudo chmod +x /home/${usuario}/Desktop/steamos-gamemode.desktop

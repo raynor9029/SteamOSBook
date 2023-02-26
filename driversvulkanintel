@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo pacman -S intel-ucode -y
+sudo pacman -S holoiso-stable/vulkan-intel holoiso-stable/lib32-vulkan-intel mesa lib32-mesa -y
+
 sudo cp -r pack/pacman.conf /etc/
 sudo pacman -Syy
 sudo pacman -S mesa lib32-mesa -y
